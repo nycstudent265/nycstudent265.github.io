@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Black background */
+  color: #000000; /* White text */
+   background-image: url('8-06.jpg');
+}
+
+hr {
+  border: 1px solid #555555; /* Horizontal rule style */
+  margin: 20px 0;
+}
+
+/* Navigation Bar */
+.topnav {
+  overflow: hidden;
+  background-color: #9fe2ff; /* Dark gray background */
+  border-bottom: 2px solid #00aeff ; /* Lighter blue bottom border */
+  border-top: 2px solid #00aeff; /* Lighter blue top border */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ffffff; /* Medium gray on hover */
+  color: #000000; /* Gold text on hover */
+}
+
+.topnav a.active {
+  background-color: #808080; /* Slightly lighter gray for active link */
+  color: #ffffff; /* Gold text for active link */
+}
+
+/* Content Section */
+.content {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #808080; /* Gold headings */
+}
+
+a {
+  color: #000000; /* Light teal links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-image: url(693473727e0078e3281cd929b4252619.gif); /* Dark background for table */
+  color: #000000; /* White text for table */
+}
+
+table th, table td {
+  border: 1px solid #808080;
+  text-align: center;
+  padding: 10px;
+}
+
+table th {
+  background-color: transparent; /* Darker header row */
+  color: #ffffff; /* Gold text for header */
+}
+
+table a {
+  color: #000000; /* Light teal for links in the table */
+}
+
+h1, #p1{
+  text-align: center;
+}
+
